@@ -1,0 +1,109 @@
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: monospace;
+    }
+    .header{
+        padding: 15px 5px;
+        height: 100px;
+        background-color: #e34c26;
+        font-size: large;
+    }
+    .header h2{
+        color: aliceblue;
+        font-family: 'Sixtyfour', sans-serif;
+        font-size: 40px;}
+
+    .header h2 .bold{
+        font-family: 'Sixtyfour', sans-serif;
+        color: #591f07;
+        font-size: 40px;
+        
+    }
+    
+    body{
+        background-color: #ebebeb;
+        
+    }
+    ul{
+        list-style: none;
+        background-color: #f06529;
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+    
+        
+    
+    ul li a{
+        color: #ffff;
+        padding: 30px 35px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        font-size: 20px;
+    }
+    ul li ul.dropdown li{
+        display: block;
+    }
+    ul li ul.dropdown{
+        width: 100%;
+        background: #e34c26;
+        position: absolute;
+        z-index: 999;
+        display: none;
+        
+    }
+    ul li a:hover{
+        background:#7b4a3e;
+        
+    }
+    
+    ul li:hover ul.dropdown{
+        display: block;
+    }
+    
+    
+     
+    .search-input{
+        background-image: url(https://www.cabodesantoagostinho.pe.leg.br/imagens/lupa.png/image_preview);
+        background-size: 20px; /* Tamanho da imagem da lupa */
+        background-position: 10px center; /* Posição da imagem da lupa */
+        background-repeat: no-repeat;
+        margin: 20px 50px;
+        width: 500px;
+        padding: 15px;
+        border-radius: 15px;
+        border: none;
+        
+    }
+    
+    .lançamentos{
+    margin: 30px 35px;
+    }
+
+.lançamentos h2{
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #e34c26;
+}
+.lançamentos img{
+    padding: 50px;
+    cursor: pointer;
+}
+.btn-su{
+    display: inline-block;
+    margin-left: 40px;
+    position: relative;
+    left: 445px;
+    width: 150px;
+    height: 70px;
+    border: none;
+    border-radius: 50px;
+    background: #e28c67;
+    font-size: large;
+    color:aliceblue ;
+    cursor: pointer;
+    
+}
